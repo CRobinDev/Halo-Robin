@@ -56,7 +56,7 @@ fun Greeting(name: String = "Christopher Robin", modifier: Modifier = Modifier) 
         ) {
             if (text.isNotEmpty()) {
                 Text(
-                    text = "Hello, $text!",
+                    text = "Halo $text!",
                     fontSize = 28.sp,
                     fontWeight = FontWeight.Bold,
                     color = Color(0xFF0D47A1)
